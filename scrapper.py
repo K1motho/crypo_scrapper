@@ -2,7 +2,7 @@ import requests
 import csv
 from datetime import datetime
 
-CURRENCIES = ['bitcoin', 'ethereum', 'solana']
+CURRENCIES = ['bitcoin', 'ethereum', 'solana', 'dogecoin']
 csvFile = 'prices.csv'
 
 def fetch_prices():
